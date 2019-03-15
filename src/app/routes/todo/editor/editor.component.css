@@ -9,6 +9,7 @@
   min-height: 420px;
   padding: 8px;
   transition: all 300ms ease-out;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
 }
 
 .variable-textarea:hover {
