@@ -1,0 +1,6 @@
+<h6>
+  angular@{{ angularVersion }} | ngx-markdown@{{ ngxMarkdownVersion }}
+</h6>
+<br>
+<textarea id="editor" class="variable-textarea" [(ngModel)]="markdown"></textarea>
+<markdown class="variable-binding" [data]="markdown"></markdown>
